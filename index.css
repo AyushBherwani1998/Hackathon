@@ -1,0 +1,85 @@
+body{
+	font-family:Open Sans;
+	color:black;
+}
+.himage img{
+	position:fixed;
+	top:1.5px;
+	left:0px;
+	width:194px;
+	height:70px;
+}
+.header{
+	position:fixed;
+	left:195px;
+	top:1px; 	
+}
+.header ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+}
+.header ul li{ 
+	float:left;
+	width:215px;
+	height:70px;
+	background-color:#4FC3F7;
+	line-height:70px;
+	font-size:16px;
+	text-align:center;
+	margin:1px;
+}
+.header ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+.header li a:hover{
+	background-color: #0288d1 ;
+	border-left-style:none;
+	border-left-width:5px;
+	border-left-color: #01579b;
+}
+.header ul li ul li{
+	display:none;
+}
+.header ul li:hover ul li{
+	display:block;
+	margin:0px;
+}
+
+.footer{
+	position:fixed;
+	bottom:1px;
+	left:0px;
+	width:100%;
+	background:#4FC3F7;
+}
+
+.footer ul{
+	list-style:none;
+}
+.footer ul li{
+	float:left;
+	height:70px;
+	line-height:40px;
+	width:275px;
+	font-size:15px;
+	text-align:center;
+	margin:10px;
+}
+.footer ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+	border-right:2px solid white;
+}
+.copy{
+	color:white;
+	font-size:14px;
+	text-align:center;
+	position:fixed;
+	bottom:7px;
+	left:535px;
+}

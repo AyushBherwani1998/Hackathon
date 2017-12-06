@@ -75,6 +75,13 @@ body{
 	display:block;
 	border-right:2px solid white;
 }
+.footer li a:hover{
+	color:#0288d1;
+	text-decoration:underline;
+}
+.footer li a:active{
+	color:#0288d1;
+}
 .copy{
 	color:white;
 	font-size:14px;
